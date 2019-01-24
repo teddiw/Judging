@@ -1,0 +1,11 @@
+id,first_name,last_name,time_competed,times_judged,email,phone_number,sibling1_id,sibling2_id,sibling3_id,sibling4_id,judge1_first_name,judge1_last_name,judge1_email,judge1_phone_number,tournaments_attended
+1,a1,a2,10,1,x@y.com,(408)455-9925,0,0,0,0,A1,A2,X@Y.com,(408)455-9925,holder
+2,b1,b2,10,2,x@y.com,(408)455-9926,0,0,0,0,B1,B2,X@Y.com,(408)455-9926,holder
+3,c1,c2,10,3,x@y.com,(408)455-9927,0,0,0,0,C1,C2,X@Y.com,(408)455-9927,holder
+4,d1,d1,10,4,x@y.com,(408)455-9928,0,0,0,0,D1,D2,X@Y.com,(408)455-9928,holder
+5,e1,e2,10,5,x@y.com,(408)455-9929,0,0,0,0,E1,E2,X@Y.com,(408)455-9929,holder
+6,f1,f2,10,6,x@y.com,(408)455-9930,0,0,0,0,F1,F2,X@Y.com,(408)455-9930,holder
+7,g1,g2,10,7,x@y.com,(408)455-9931,0,0,0,0,G1,G2,X@Y.com,(408)455-9931,holder
+8,h1,h2,10,8,x@y.com,(408)455-9932,0,0,0,0,H1,H2,X@Y.com,(408)455-9932,holder
+9,i1,i2,10,9,x@y.com,(408)455-9933,0,0,0,0,I1,I2,X@Y.com,(408)455-9933,holder
+10,j1,j2,10,10,x@y.com,(408)455-9934,0,0,0,0,J1,J2,X@Y.com,(408)455-9934,holder
