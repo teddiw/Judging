@@ -4,9 +4,13 @@ import java.util.Arrays;
 public class Client{
 	public static void main(String[] args) {
 		int student_info_num = 16;
-		int students_num = 11;
-		String[][] students_from_CSV = ArrayFromCSV.make(students_num, student_info_num, "students_test - Sheet1.csv");
-		String[][] competitors_from_CSV = ArrayFromCSV.make(9, 1, "competitors_test - Sheet1.csv");
+		int students_num = 10; //change this to the number of students on the roster
+		students_num += 1;
+		String studentsCSVfileName = "students_test - Sheet1.csv"; //change this to the roster of students with specified header form: id | first_name | last_name | times_competed | times_judged | email | phone_number | sbling1_id | sibling2_id | sibling3_id | sibling4_id | judge1_first_name | judge1_last_name | judge1_email | judge1_phone_number | tournaments_attended
+		String competitorsCSVfileName = "competitors_test - Sheet1.csv"; //change this to the list of student IDs of competing students
+		int competitors_num = 9; //change this to the number of students competing
+		String[][] students_from_CSV = ArrayFromCSV.make(students_num, student_info_num, studentsCSVfileName); //loaded with an example file
+		String[][] competitors_from_CSV = ArrayFromCSV.make(competitors_num, 1, competitorsCSVfileName); //loaded with an example file 
 		Roster roster = new Roster(Arrays.copyOfRange(students_from_CSV, 1, students_num), competitors_from_CSV); //make copy to trim off spreadsheet header
 		ArrayList<Student> competing_students = roster.get_competing_students();
 		//throw some warning if there are competitor IDs that are not found on the roster of students
