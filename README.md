@@ -28,4 +28,4 @@ Running Client.java will create two new files called "updated_roster.csv" and "s
 which will be placed in your directory. These files contain the updated list of students and the list of students 
 who are to provide judges for the upcoming tournament.
 
-To see an example of this code: students_test - Sheet1.csv and competitors_test - Sheet1.csv are test files and can be used to runn Client.java to obtain the two output files.
+To see an example of this code: students_test - Sheet1.csv and competitors_test - Sheet1.csv are test files and can be used to run Client.java to obtain the two output files.
